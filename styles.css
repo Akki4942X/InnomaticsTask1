@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+thead th {
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody td, tbody th {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+thead th {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.home {
+    background-color: pink;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.day{
+    background-color: yellow;
+}
+.time{
+    background-color: gray;
+}
